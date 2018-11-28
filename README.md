@@ -1,12 +1,16 @@
 
 <h1>《后端架构师技术图谱》</h1>
 
+![阿里巴巴集团长期内推，欢迎自荐，xingshaocheng@gmail.com](https://cdns.coderxing.com/HrUJ4G3E.png_700x700)
+
 [![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-DC3D24.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 [![GitHub stars](https://img.shields.io/github/stars/xingshaocheng/architect-awesome.svg?style=flat&label=Star)](https://github.com/xingshaocheng/architect-awesome/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/xingshaocheng/architect-awesome.svg?style=flat&label=Fork)](https://github.com/xingshaocheng/architect-awesome/fork)
 [![GitHub watchers](https://img.shields.io/github/watchers/xingshaocheng/architect-awesome.svg?style=flat&label=Watch)](https://github.com/xingshaocheng/architect-awesome/watchers)
 
-**最后更新于20180502**
+
+
+
 * [数据结构](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#数据结构)
 	* [队列](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#队列)
 	* [集合](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#集合)
@@ -19,7 +23,7 @@
 		* [平衡二叉树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#平衡二叉树)
 		* [二叉查找树（BST）](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#二叉查找树bst)
 		* [红黑树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#红黑树)
-		* [B-，B+，B*树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#b-bb树)
+		* [B，B+，B*树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#b-bb树)
 		* [LSM 树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#lsm-树)
 	* [BitSet](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#bitset)
 * [常用算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#常用算法)
@@ -49,6 +53,7 @@
 	* [最小生成树算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#最小生成树算法)
 	* [最短路径算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#最短路径算法)
 * [并发](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#并发)
+	* [Java 并发](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#java-并发)
 	* [多线程](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#多线程)
 	* [线程安全](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#线程安全)
 	* [一致性、事务](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#一致性事务)
@@ -116,7 +121,8 @@
 * [中间件](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#中间件)
 	* [Web Server](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#web-server)
 		* [Nginx](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#nginx)
-		* [OpenResty](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#openresty)
+		* [OpenResty](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#openresty)  
+		* [Tengine](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#Tengine)  
 		* [Apache Httpd](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#apache-httpd)
 		* [Tomcat](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#tomcat)
 			* [架构原理](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#架构原理)
@@ -126,6 +132,7 @@
 		* [本地缓存](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#本地缓存)
 	* [客户端缓存](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#客户端缓存)
 	* [服务端缓存](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#服务端缓存)
+		* [Web缓存](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#web缓存)
 		* [Memcached](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#memcached)
 		* [Redis](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#redis)
 			* [架构](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#架构)
@@ -301,6 +308,7 @@
 	* [敏捷开发](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#敏捷开发)
 	* [极限编程（XP）](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#极限编程xp)
 	* [结对编程](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#结对编程)
+	* [PDCA 循环质量管理](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#pdca-循环质量管理)
 	* [FMEA管理模式](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#fmea管理模式)
 * [通用业务术语](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#通用业务术语)
 * [技术趋势](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#技术趋势)
@@ -341,6 +349,7 @@
 	* [代码托管](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#代码托管)
 	* [文件服务](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#文件服务)
 	* [综合云服务商](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#综合云服务商)
+		* [VPS](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#vps)
 	
 
 **（Toc generated by [simple-php-github-toc](https://github.com/xingshaocheng/simple-php-github-toc) ）**
@@ -397,12 +406,12 @@
 	* 添加阶段后，左旋或者右旋从而再次达到平衡。 
 * [《浅谈算法和数据结构: 九 平衡查找树之红黑树》](http://www.cnblogs.com/yangecnu/p/Introduce-Red-Black-Tree.html)
 
-### B-，B+，B*树
+### B，B+，B*树
 MySQL是基于B+树聚集索引组织表
 
 * [《B-树，B+树，B\*树详解》](https://blog.csdn.net/aqzwss/article/details/53074186)
 * [《B-树，B+树与B\*树的优缺点比较》](https://blog.csdn.net/bigtree_3721/article/details/73632405)
-	* B+ 树的叶子节点链表结构相比于 B- 树便于扫库，和范围检索。
+	* B+树的叶子节点链表结构相比于 B-树便于扫库，和范围检索。
 ### LSM 树
 
 LSM（Log-Structured Merge-Trees）和 B+ 树相比，是牺牲了部分读的性能来换取写的性能(通过批量写入)，实现读写之间的。
@@ -548,140 +557,10 @@ KMP：Knuth-Morris-Pratt算法（简称KMP）
 
 # 并发
 
-1. **基础知识**
-	
-	1.1 [并发编程的优缺点](https://juejin.im/post/5ae6c3ef6fb9a07ab508ac85)
-	
-	知识点：（1）为什么要用到并发？（优点）；（2）并发编程的缺点；（3）易混淆的概念
+## Java 并发
 
-	1.2 [线程的状态和基本操作](https://juejin.im/post/5ae6cf7a518825670960fcc2)
-
-	知识点：（1）如何新建线程；（2）线程状态的转换；（3）线程的基本操作；（4）守护线程Daemon；
-
-2. **并发理论（JMM）**
-
-	[java内存模型以及happens-before规则](https://juejin.im/post/5ae6d309518825673123fd0e)
-
-	知识点：（1）JMM内存结构；（2）重排序；（3）happens-before规则
-
-
-3. **并发关键字**
-
-	3.1 [让你彻底理解Synchronized](https://juejin.im/post/5ae6dc04f265da0ba351d3ff)
-
-	知识点：（1）如何使用synchronized；（2）monitor机制；（3）synchronized的happens-before关系；（4）synchronized的内存语义；（5）锁优化；（6）锁升级策略
-
-	3.2 [让你彻底理解volatile](https://juejin.im/post/5ae9b41b518825670b33e6c4)
-	
-	知识点：（1）实现原理；（2）happens-before的关系推导；（3）内存语义；（4）内存语义的实现
-
-	3.3 [你以为你真的了解final吗？](https://juejin.im/post/5ae9b82c6fb9a07ac3634941)
-
-	知识点：（1）如何使用；（2）final的重排序规则；（3）final实现原理；（4）final引用不能从构造函数中“溢出”（this逃逸）
-	
-	3.4 [三大性质总结：原子性，有序性，可见性](https://juejin.im/post/5aeb022cf265da0b722af7b8)
-	
-	知识点：（1）原子性：synchronized；（2）可见性：synchronized，volatile；（3）有序性：synchronized，volatile
-
-4. **Lock体系**
-
-	4.1 [初识Lock与AbstractQueuedSynchronizer(AQS)](https://juejin.im/post/5aeb055b6fb9a07abf725c8c)
-	
-	知识点：（1）Lock和synchronized的比较；（2）AQS设计意图；（3）如何使用AQS实现自定义同步组件；（4）可重写的方法；（5）AQS提供的模板方法；
-
-	4.2 [深入理解AbstractQueuedSynchronizer(AQS)](https://juejin.im/post/5aeb07ab6fb9a07ac36350c8)
-
-	知识点：（1）AQS同步队列的数据结构；（2）独占式锁；（3）共享式锁；
-
-	4.3 [再一次理解ReentrantLock](https://juejin.im/post/5aeb0a8b518825673a2066f0)
-	
-	知识点：（1）重入锁的实现原理；（2）公平锁的实现原理；（3）非公平锁的实现原理；（4）公平锁和非公平锁的比较
-
-	4.4 [深入理解读写锁ReentrantReadWriteLock](https://juejin.im/post/5aeb0e016fb9a07ab7740d90)
-
-	知识点：（1）如何表示读写状态；（2）WriteLock的获取和释放；（3）ReadLock的获取和释放；（4）锁降级策略；（5）生成Condition等待队列；（6）应用场景
-
-	4.5 [详解Condition的await和signal等待/通知机制](https://juejin.im/post/5aeea5e951882506a36c67f0)
-
-	知识点：（1）与Object的wait/notify机制相比具有的特性；（2）与Object的wait/notify相对应的方法；（3）底层数据结构；（4）await实现原理；（5）signal/signalAll实现原理；（6）await和signal/signalAll的结合使用；
-
-	4.6 [LockSupport工具](https://juejin.im/post/5aeed27f51882567336aa0fa)
-
-	知识点：（1）主要功能；（2）与synchronized阻塞唤醒相比具有的特色；
-
-
-5. **并发容器**
-
-	5.1 [并发容器之ConcurrentHashMap(JDK 1.8版本)](https://juejin.im/post/5aeeaba8f265da0b9d781d16)
-
-	知识点：（1）关键属性；（2）重要内部类；（3）涉及到的CAS操作；（4）构造方法；（5）put执行流程；（6）get执行流程；（7）扩容机制；（8）用于统计size的方法的执行流程；（9）1.8版本的ConcurrentHashMap与之前版本的比较
-
-	5.2 [并发容器之CopyOnWriteArrayList](https://juejin.im/post/5aeeb55f5188256715478c21)
-
-	知识点：（1）实现原理；（2）COW和ReentrantReadWriteLock的区别；（3）应用场景；（4）为什么具有弱一致性；（5）COW的缺点；
-
-	5.3 [并发容器之ConcurrentLinkedQueue](https://juejin.im/post/5aeeae756fb9a07ab11112af)
-
-	知识点：（1）实现原理；（2）数据结构；（3）核心方法；（4）HOPS延迟更新的设计意图
-
-	5.4 [并发容器之ThreadLocal](https://juejin.im/post/5aeeb22e6fb9a07aa213404a)
-	
-	知识点：（1）实现原理；（2）set方法原理；（3）get方法原理；（4）remove方法原理；（5）ThreadLocalMap
-	
-	[一篇文章，从源码深入详解ThreadLocal内存泄漏问题](https://www.jianshu.com/p/dde92ec37bd1)
-	
-	知识点：（1）ThreadLocal内存泄漏原理；（2）ThreadLocal的最佳实践；（3）应用场景
-
-	5.5 [并发容器之BlockingQueue](https://juejin.im/post/5aeebd02518825672f19c546)
-
-	知识点：（1）BlockingQueue的基本操作；（2）常用的BlockingQueue；
-
-	[并发容器之ArrayBlockingQueue和LinkedBlockingQueue实现原理详解](https://juejin.im/post/5aeebdb26fb9a07aa83ea17e)
-
-6. **线程池（Executor体系）**
-
-	6.1 [线程池实现原理](https://juejin.im/post/5aeec0106fb9a07ab379574f)
-
-	知识点：（1）为什么要用到线程池？（2）执行流程；（3）构造器各个参数的意义；（4）如何关闭线程池；（5）如何配置线程池；
-
-	6.2 [线程池之ScheduledThreadPoolExecutor](https://juejin.im/post/5aeec106518825670a10328a)
-	
-	知识点：（1）类结构；（2）常用方法；（3）ScheduledFutureTask；（3）DelayedWorkQueue;
-
-	6.3 [FutureTask基本操作总结](https://juejin.im/post/5aeec249f265da0b886d5101)
-
-	知识点：（1）FutureTask的几种状态；（2）get方法；（3）cancel方法；（4）应用场景；（5）实现 Runnable接口
-
-7. **原子操作类**
-
-	7.1  [Java中atomic包中的原子操作类总结](https://juejin.im/post/5aeec351518825670a103292)
-	
-	知识点：（1）实现原理；（2）原子更新基本类型；（3）原子更新数组类型；（4）原子更新引用类型；（5）原子更新字段类型
-
-8. **并发工具**
-
-	8.1 [大白话说java并发工具类-CountDownLatch，CyclicBarrier](https://juejin.im/post/5aeec3ebf265da0ba76fa327)
-
-	知识点：（1）倒计时器CountDownLatch；（2）循环栅栏CyclicBarrier；（3）CountDownLatch与CyclicBarrier的比较
-
-	8.2 [大白话说java并发工具类-Semaphore，Exchanger](https://juejin.im/post/5aeec49b518825673614d183)
-
-	知识点：（1）资源访问控制Semaphore；（2）数据交换Exchanger
-
-9. **并发实践**
-
-	9.1 [一篇文章，让你彻底弄懂生产者--消费者问题](https://juejin.im/post/5aeec675f265da0b7c072c56)
-
-
-> JAVA并发知识图谱
-
-**可移动到新窗口，放大查看效果更好或者查看原图**
-
-[知识图谱原图链接，如果有用，可克隆给自己使用](https://www.processon.com/view/5ab5a979e4b0a248b0e026b3?fromnew=1)
-
-![JAVA并发知识图谱.png](https://github.com/CL0610/Java-concurrency/blob/master/Java并发知识图谱.png)
-
-
+* [Java 并发知识合集](https://github.com/CL0610/Java-concurrency)
+* [JAVA并发知识图谱](https://github.com/CL0610/Java-concurrency/blob/master/Java并发知识图谱.png)
 
 ## 多线程
 
@@ -710,7 +589,7 @@ KMP：Knuth-Morris-Pratt算法（简称KMP）
 	* 幻读的例子非常清楚。
 	* 通过 SELECT ... FOR UPDATE 解决。
 	
-* [《一篇文章带你读懂MySQL和InnoDB》](http://database.51cto.com/art/201804/570101.htm)
+* [《一篇文章带你读懂MySQL和InnoDB》](https://draveness.me/mysql-innodb)
 	* 图解脏读、不可重复读、幻读问题。
 
 
@@ -813,7 +692,7 @@ KMP：Knuth-Morris-Pratt算法（简称KMP）
 
 ### 死锁
 * [《“死锁”四个必要条件的合理解释》](https://blog.csdn.net/yunfenglw/article/details/45950305)
-	* 互斥、持有、不可剥夺、不可剥夺。
+	* 互斥、持有、不可剥夺、环形等待。
 * [Java如何查看死锁？](https://blog.csdn.net/u014039577/article/details/52351626)
 	* JConsole 可以识别死锁。
 	
@@ -857,7 +736,7 @@ TODO
 ## 设计模式的六大原则
 * [《设计模式的六大原则》](https://blog.csdn.net/q291611265/article/details/48465113)
 	* 开闭原则：对扩展开放,对修改关闭，多使用抽象类和接口。
-	* 里氏代换原则：基类可以被子类替换，使用抽象类继承,不使用具体类继承。
+	* 里氏替换原则：基类可以被子类替换，使用抽象类继承,不使用具体类继承。
 	* 依赖倒转原则：要依赖于抽象,不要依赖于具体，针对接口编程,不针对实现编程。
 	* 接口隔离原则：使用多个隔离的接口,比使用单个接口好，建立最小的接口。
 	* 迪米特法则：一个软件实体应当尽可能少地与其他实体发生相互作用，通过中间类建立联系。
@@ -866,6 +745,7 @@ TODO
 ## 23种常见设计模式
 * [《设计模式》](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)
 * [《23种设计模式全解析》](https://www.cnblogs.com/susanws/p/5510229.html)
+* [《设计模式类图与示例》](https://github.com/ToryZhou/design-pattern)
 
 ## 应用场景
 * [《细数JDK里的设计模式》](http://blog.jobbole.com/62314/)
@@ -917,7 +797,7 @@ TODO
 
 ## AOP
 
-* [《轻松理解AOP(面向切面编程)》](https://my.oschina.net/yanquan345/blog/203415)
+* [《轻松理解AOP(面向切面编程)》](https://blog.csdn.net/yanquan345/article/details/19760027)
 * [《Spring AOP详解》](https://www.cnblogs.com/hongwz/p/5764917.html)
 * [《Spring AOP的实现原理》](http://www.importnew.com/24305.html)
 	* Spring AOP使用的动态代理，主要有两种方式：JDK动态代理和CGLIB动态代理。
@@ -995,7 +875,7 @@ APM —  Application Performance Management
 * [《APP埋点常用的统计工具、埋点目标和埋点内容》](http://www.25xt.com/company/17066.html)
 	* 第三方统计：友盟、百度移动、魔方、App Annie、talking data、神策数据等。
 
-* [《美团点评前端无痕埋点实践》](https://tech.meituan.com/mt-mobile-analytics-practice.html)
+* [《美团点评前端无痕埋点实践》](https://tech.meituan.com/mt_mobile_analytics_practice.html)
 	* 所谓无痕、即通过可视化工具配置采集节点，在前端自动解析配置并上报埋点数据，而非硬编码。 
 
 
@@ -1116,7 +996,11 @@ APM —  Application Performance Management
 ### OpenResty
 * [官方网站](http://openresty.org/cn/)
 * [《浅谈 OpenResty》](http://www.linkedkeeper.com/detail/blog.action?bid=1034)
-	* 通过 Lua 模块可以在Nginx上进行开发。 
+	* 通过 Lua 模块可以在Nginx上进行开发。   
+* [agentzh 的 Nginx 教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)  
+	
+### Tengine
+* [官方网站](http://tengine.taobao.org/)  
 
 ### Apache Httpd
 * [官方网站](http://httpd.apache.org/)
@@ -1131,7 +1015,7 @@ APM —  Application Performance Management
 * [《四张图带你了解Tomcat系统架构》](https://blog.csdn.net/xlgen157387/article/details/79006434)
 
 * [《JBoss vs. Tomcat: Choosing A Java Application Server》](https://www.futurehosting.com/blog/jboss-vs-tomcat-choosing-a-java-application-server/)
-	* Tomcat 是轻量级的 Serverlet 容器，没有实现全部 JEE 特性（比如持久化和事务处理），但可以通过其他组件代替，比如Srping。
+	* Tomcat 是轻量级的 Serverlet 容器，没有实现全部 JEE 特性（比如持久化和事务处理），但可以通过其他组件代替，比如Spring。
 	* Jboss 实现全部了JEE特性，软件开源免费、文档收费。
 
 #### 调优方案
@@ -1266,6 +1150,7 @@ APM —  Application Performance Management
 ### RocketMQ
 Java实现，推拉模式都是支持，吞吐量逊于Kafka。可以保证消息顺序。
 * [《RocketMQ 实战之快速入门》](https://www.jianshu.com/p/824066d70da8)
+* [《RocketMQ 源码解析》](http://www.iocoder.cn/categories/RocketMQ/?vip&architect-awesome)
 
 ### ActiveMQ
 纯Java实现，兼容JMS，可以内嵌于Java应用中。
@@ -1310,6 +1195,8 @@ Java实现，推拉模式都是支持，吞吐量逊于Kafka。可以保证消�
 
 * [《Quartz任务调度的基本实现原理》](https://www.cnblogs.com/zhenyuyaodidiao/p/4755649.html)
 	* Quartz集群中，独立的Quartz节点并不与另一其的节点或是管理节点通信，而是通过相同的数据库表来感知到另一Quartz应用的 
+* [《Elastic-Job-Lite 源码解析》](http://www.iocoder.cn/categories/Elastic-Job-Lite/?vip&architect-awesome)
+* [《Elastic-Job-Cloud 源码解析》](http://www.iocoder.cn/categories/Elastic-Job-Cloud/?vip&architect-awesome)
 
 
 ## RPC
@@ -1344,6 +1231,7 @@ TODO
 ### Sharding Jdbc
 
 * [官网](http://shardingjdbc.io/)
+* [源码解析](http://www.iocoder.cn/categories/Sharding-JDBC/?vip&architect-awesome)
 
 ## 日志系统
 
@@ -1375,6 +1263,7 @@ servlet 3.0 异步特性可用于配置中心的客户端
 * [《谈API网关的背景、架构以及落地方案》](http://www.infoq.com/cn/news/2016/07/API-background-architecture-floo)
 
 * [《使用Zuul构建API Gateway》](https://blog.csdn.net/zhanglh046/article/details/78651993)
+* [《Spring Cloud Gateway 源码解析》](http://www.iocoder.cn/categories/Spring-Cloud-Gateway/?vip&architect-awesome)
 * [《HTTP API网关选择之一Kong介绍》](https://mp.weixin.qq.com/s/LIq2CiXJQmmjBC0yvYLY5A)
 
 # 网络
@@ -1515,7 +1404,12 @@ MyISAM 是非聚集，InnoDB 是聚集
 #### 复合索引
 
 * [《复合索引的优点和注意事项》](https://www.cnblogs.com/summer0space/p/7247778.html)
-
+	* 文中有一处错误：
+	> 对于复合索引,在查询使用时,最好将条件顺序按找索引的顺序,这样效率最高; select * from table1 where col1=A AND col2=B AND col3=D 如果使用 where col2=B AND col1=A 或者 where col2=B 将不会使用索引
+	* 原文中提到索引是按照“col1，col2，col3”的顺序创建的，而mysql在按照最左前缀的索引匹配原则，且会自动优化 where 条件的顺序，当条件中只有 col2=B AND col1=A 时，会自动转化为 col1=A AND col2=B，所以依然会使用索引。
+	
+* [《MySQL查询where条件的顺序对查询效率的影响》](https://www.cnblogs.com/acode/p/7489258.html)
+	
 #### 自适应哈希索引(AHI)
 
 * [《InnoDB存储引擎——自适应哈希索引》](https://blog.csdn.net/Linux_ever/article/details/62043708)
@@ -1656,8 +1550,8 @@ MyISAM 是非聚集，InnoDB 是聚集
 
 
 * [《邪恶的JAVA HASH DOS攻击》](http://www.freebuf.com/articles/web/14199.html)
-	* 利用JsonObjet 上传大Json，JsonObject 底层使用HashMap；不同的数据产生相同的hash值，使得构建Hash速度变慢，耗尽CPU。
-* [《一种高级的DoS攻击-Hash碰撞攻击》](https://yq.aliyun.com/articles/92194?t=t1)
+	* 利用JsonObject 上传大Json，JsonObject 底层使用HashMap；不同的数据产生相同的hash值，使得构建Hash速度变慢，耗尽CPU。
+* [《一种高级的DoS攻击-Hash碰撞攻击》](http://blog.it2048.cn/article_hash-collision.html )
 * [《关于Hash Collision DoS漏洞：解析与解决方案》](http://www.iteye.com/news/23939/)
 
 ### 脚本注入
@@ -1684,7 +1578,7 @@ MyISAM 是非聚集，InnoDB 是聚集
 
 ## 用户隐私信息保护
 
-1. 用户密码非明文保存，加动态slat。
+1. 用户密码非明文保存，加动态salt。
 2. 身份证号，手机号如果要显示，用 “\*” 替代部分字符。
 3. 联系方式在的显示与否由用户自己控制。
 4. TODO
@@ -1749,6 +1643,7 @@ TODO
 
 ### OAuth2.0
 * [《理解OAuth 2.0》](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
+* [《一张图搞定OAuth2.0》](https://www.cnblogs.com/flashsun/p/7424071.html)
 
 ### 双因素认证（2FA）
 
@@ -1937,7 +1832,7 @@ TODO
 * [《JVM安全退出（如何优雅的关闭java服务）》](https://blog.csdn.net/u011001084/article/details/73480432)
 推荐推出方式：System.exit，Kill SIGTERM；不推荐 kill-9；用 Runtime.addShutdownHook 注册钩子。
 * [《常见Java应用如何优雅关闭》](http://ju.outofmemory.cn/entry/337235)
-Java、Srping、Dubbo 优雅关闭方式。
+Java、Spring、Dubbo 优雅关闭方式。
 
 ## 数据库扩展
 
@@ -2149,13 +2044,23 @@ TODO
 
 ## Serverless
 
-TODO
+无需过多关系服务器的服务架构理念。
+
+* [《什么是Serverless无服务器架构？》](http://www.jdon.com/soa/serverless.html)
+	* Serverless 不代表出去服务器，而是去除对服务器运行状态的关心。
+	* Serverless 代表一思维方式的转变，从“构建一套服务在一台服务器上，对对个事件进行响应转变为构建一个为服务器，来响应一个事件”。
+	* Serverless 不代表某个具体的框架。
+
+* [《如何理解Serverless？》](http://www.infoq.com/cn/news/2017/10/how-to-understand-serverless)
+	* 依赖于 Baas （(Mobile) Backend as a Service） 和 Faas （Functions as a service）
+
+
 
 ## Service Mesh
 
-TODO
-
 * [《什么是Service Mesh？》](https://time.geekbang.org/article/2355)
+* [《初识 Service Mesh》](https://www.jianshu.com/p/e23e3e74538e)
+
 
 # 项目管理
 
@@ -2169,7 +2074,7 @@ TODO
 
 ## 代码规范
 
-TODO
+* [《阿里巴巴Java开发手册》](https://github.com/alibaba/p3c)
 
 ## 代码 Review
 
@@ -2230,6 +2135,12 @@ XP - eXtreme Programming
 边写码，边review。能够增强代码质量、减少bug。
 
 * [《结对编程》](http://www.baike.com/wiki/%E7%BB%93%E5%AF%B9%E7%BC%96%E7%A8%8B)
+
+## PDCA 循环质量管理
+
+P——PLAN 策划，D——DO 实施，C——CHECK 检查，A——ACT 改进
+
+* [《PDCA》](http://www.baike.com/wiki/PDCA)
 
 ## FMEA管理模式
 
@@ -2360,6 +2271,8 @@ TODO
 
 * [国家数据](http://data.stats.gov.cn/)
 
+* [TalkingData](http://www.talkingdata.com/)
+
 ## 专项网站
 
 * 测试:
@@ -2385,8 +2298,10 @@ TODO
 	* [中国大数据](http://www.thebigdata.cn/) 
 
 * 其他专题网站：
+	* [InfoQ](http://www.infoq.com/cn/)
+		* 偏重于基础架构、运维方向
 	* [DockerInfo](http://www.dockerinfo.net/)
-		* 专注于 Docker 应用及咨询、教程的网站。
+		* 专注于 Docker 应用及咨询、教程的网站
 	* [Linux公社](https://www.linuxidc.com/)
 		* Linux 主题社区
 
@@ -2415,26 +2330,28 @@ TODO
 
 #### 开发方面
 
-* 《阿里巴巴Java开发手册》[京东](https://union-click.jd.com/jdc?d=bVKwZQ) [淘宝](https://s.taobao.com/search?q=阿里巴巴Java开发手册)
+* 《阿里巴巴Java开发手册》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=BfL5CR)
 
 #### 架构方面
-* 《软件架构师的12项修炼：技术技能篇》[京东](https://union-click.jd.com/jdc?d=gXvRd8) [淘宝](https://s.taobao.com/search?q=软件架构师的12项修炼：技术技能篇)
-* 《架构之美》[京东](https://union-click.jd.com/jdc?d=xJit5I) [淘宝](https://s.taobao.com/search?q=架构之美)
-* 《分布式服务架构》[京东](https://union-click.jd.com/jdc?d=JS5Od9) [淘宝](https://s.taobao.com/search?q=分布式服务架构)
-* 《聊聊架构》 [京东](https://union-click.jd.com/jdc?d=FHooH4) [淘宝](https://s.taobao.com/search?q=聊聊架构)
-* 《云原生应用架构实践》[京东](https://union-click.jd.com/jdc?d=orkJSj) [淘宝](https://s.taobao.com/search?q=云原生应用架构实践)
-* 《亿级流量网站架构核心技术》[京东](https://union-click.jd.com/jdc?d=RnOSP5) [淘宝](https://s.taobao.com/search?q=亿级流量网站架构核心技术)
-* 《淘宝技术这十年》[京东](https://union-click.jd.com/jdc?d=LwrDfD) [淘宝](https://s.taobao.com/search?q=淘宝技术这十年)
-* 《企业IT架构转型之道-中台战略思想与架构实战》 [京东](https://union-click.jd.com/jdc?d=89pAEm) [淘宝](https://s.taobao.com/search?q=企业IT架构转型之道)
+* 《软件架构师的12项修炼：技术技能篇》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=rTlo0m)
+* 《架构之美》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=1KECBZ) 
+* 《分布式服务架构》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=hkzqtK) 
+* 《聊聊架构》 [详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=A8Nd6Z) 
+* 《云原生应用架构实践》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=D4WCpd) 
+* 《亿级流量网站架构核心技术》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=Rdmd21)
+* 《淘宝技术这十年》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=CoUdGG)
+* 《企业IT架构转型之道-中台战略思想与架构实战》 [详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=BxS6eI) 
+
+* 《高可用架构（第1卷）》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=BcjUwS) 
 
 #### 技术管理方面
-* 《CTO说》[京东](https://union-click.jd.com/jdc?d=zhTZyr) [淘宝](https://s.taobao.com/search?q=CTO说)
-* 《技术管理之巅》[京东](https://union-click.jd.com/jdc?d=LgRBUW) [淘宝](https://s.taobao.com/search?q=技术管理之巅)
-* 《网易一千零一夜：互联网产品项目管理实战》[京东](https://union-click.jd.com/jdc?d=jcRz2r) [淘宝](https://s.taobao.com/search?q=网易一千零一夜：互联网产品项目管理实战)
+* 《CTO说》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=Gl3QAo) 
+* 《技术管理之巅》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=MeloLt)
+* 《网易一千零一夜：互联网产品项目管理实战》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=qPuqMg) 
 
 #### 基础理论
-* 《数学之美》[京东](https://union-click.jd.com/jdc?d=ghIES2) [淘宝](https://s.taobao.com/search?q=数学之美)
-* 《编程珠玑》[京东](https://union-click.jd.com/jdc?d=YmhdEu) [淘宝](https://s.taobao.com/search?q=编程珠玑)
+* 《数学之美》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=0seUpO) 
+* 《编程珠玑》[详情](https://www.coderxing.com/r.php?r=https://union-click.jd.com/jdc?d=I7jj9r) 
 
 #### 工具方面
 TODO
@@ -2520,7 +2437,7 @@ TODO
 
 ## 综合云服务商
 * 阿里云
-* 腾讯云
+* [腾讯云](https://cloud.tencent.com/redirect.php?redirect=1012&cps_key=c2665015d90871c0cb20fef91b7afc3c)
 * 百度云
 * 新浪云
 * 金山云
@@ -2530,3 +2447,7 @@ TODO
 
 ### VPS
 * [Linode](http://linode.com)
+* [DigitalOcean](https://www.digitalocean.com)
+* [Vultr](https://www.vultr.com/)
+
+
